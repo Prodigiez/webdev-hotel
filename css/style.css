@@ -1,0 +1,94 @@
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+}
+.navbar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.navbar-brand{
+   margin: auto;
+   text-align: center;
+}
+.navbar_left{
+    /* list-style: none; */
+    
+
+}
+.navbar_left ul{
+    list-style: none;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    padding: 3px 27px 3px 3px;
+}
+
+.navbar_right li{
+    float: right;
+}
+
+.slides{
+    height: 800px;
+}
+
+.carousel .carousel-item {
+    height: 700px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      
+      top: 0;
+      left: 0;
+      min-height: 700px;
+  }
+
+  /* Opening */
+
+  #opening{
+    padding: 7% 7%;
+    padding-bottom: 0%;
+  }
+  .opening-carousel{
+    width: 640px;
+    height: 400px;
+  }
+
+  .carousel-item img {
+    position:relative;
+    /* object-fit: cover; */
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+
+.footer_open{
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 1%;
+}
+
+/* Info section */
+#info{
+    text-align: center;
+    padding: 7% 20%;
+    padding-top: 0%;
+}
+.info-container{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+.info-card{
+    width: 558px;
+    height: 244px;
+}
+.card-body{
+    padding: 0;
+}
+  
