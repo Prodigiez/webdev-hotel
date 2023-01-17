@@ -177,6 +177,10 @@ hr{
 .navbar-nav li{
     text-align: left;
     font-style: "Montserrat-Black";
+    
+}
+.navbar-nav li a{
+    font-size: 20px;
 }
 .offcanvas-search{
     border: none;
