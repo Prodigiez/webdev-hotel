@@ -7,7 +7,10 @@ hr{
     margin-left: 25%;
 }
 .navbar{
-    padding: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom:0px;
+    padding-top: 0px;
     
 }
 
@@ -21,8 +24,9 @@ hr{
 .navbar_left{
     /* list-style: none; */
     
-
+    
 }
+
 .navbar_left li a{
     list-style: none;
     text-decoration: none;
@@ -30,6 +34,13 @@ hr{
 .navbar_right li a{
     list-style: none;
     text-decoration: none;
+}
+
+.navbar_left ul{
+    display: inline-block;
+}
+.navbar_right ul{
+    display: inline-block;
 }
 
 .navbar li{
@@ -76,11 +87,11 @@ hr{
   /* Opening */
 
   #opening{
-    padding: 7% 7%;
+   
     padding-bottom: 0%;
   }
   .opening-carousel{
-    /* width: 640px; */
+   
     height: 400px;
   }
 
@@ -92,9 +103,17 @@ hr{
     min-height: 400px;
 }
 
+.opening-text{
+    display: flex;
+}
+.opening-text li a{
+    float: left;
+}
+
 .footer_open{
     text-align: center;
-    padding: 7%;
+
+    padding: 0 7% 0 7%;
     padding-bottom: 1%;
 }
 
@@ -122,6 +141,8 @@ hr{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    padding-left: 130px;
+    padding-right:130px;
 }
 
 .black-header li{
