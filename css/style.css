@@ -6,6 +6,7 @@ hr{
     width: 50%;
     margin-left: 25%;
 }
+
 .navbar{
     padding-left: 150px;
     padding-right: 150px;
@@ -52,6 +53,7 @@ hr{
 }
 
 
+
 .nav-button{
     background-color: #d8741b;
     padding:5px 20px;
@@ -90,6 +92,10 @@ hr{
    
     padding-bottom: 0%;
   }
+
+  .opening-row{
+    height: 470px;
+  }
   .opening-carousel{
    
     height: 400px;
@@ -117,11 +123,17 @@ hr{
     padding-bottom: 1%;
 }
 
+.footer_open a{
+    color: #d8741b;
+    text-decoration: none;
+    
+}
 /* Info section */
 #info{
     text-align: center;
     padding: 7% 20%;
     padding-top: 0%;
+    padding-bottom: 2%;
 }
 .info-container{
     width: 80%;
@@ -131,16 +143,35 @@ hr{
 .info-card{
     width: 558px;
     height: 244px;
+    text-align: center;
     
 }
 .card-body{
     padding: 0;
 }
-  
+
+.weather{
+    padding: 30px 50px;
+}
+
+.BookDirect{
+    padding-left:180px;
+    width: 1270px;
+}
+
+/* Dine In */
+.dine-text{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+/* New CSS */
+
+
 .black-header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #000000;
     padding-left: 130px;
     padding-right:130px;
 }
@@ -215,6 +246,11 @@ hr{
     color: #d8741b;
 }
 
+
+.social-icon li a:hover{
+    color: #d8741b;
+}
+
 .offcanvas-search{
     border: none;
     color: black;
@@ -230,24 +266,41 @@ hr{
     margin-right: 0;
     margin:4px;
     
-    
 }
 
 .offcanvas-body{
     padding: 0;
+}
+
+.opening-icons {
+   padding-left: 180px;
+}
+.opening-icons li{
+    float: left;
+    list-style: none;
+}
+
+.fb:hover{
+    color:#3b5998;
+    transform: translateY(-6px);
     
 }
 
-.social-icon ul{
-    padding-left: 24px;
+.in:hover{
+    color:#8a3ab9;
+    transform: translateY(-6px);
 }
 
-.social-icon li a{
-    color: black;
-    padding: 8px;
-
+.tw:hover{
+    color:#1DA1F2;
+    transform: translateY(-6px);
 }
 
-.social-icon li a:hover{
-    color: #d8741b;
+.opening-icons li a{
+    color: grey;
+    padding: 4px;
+    font-size: 20px;
 }
+
+
+
