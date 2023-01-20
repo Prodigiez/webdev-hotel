@@ -31,10 +31,12 @@ hr{
 .navbar_left li a{
     list-style: none;
     text-decoration: none;
+    color: #000000;
 }
 .navbar_right li a{
     list-style: none;
     text-decoration: none;
+    color: #000000;
 }
 
 .navbar_left ul{
@@ -160,10 +162,69 @@ hr{
 }
 
 /* Dine In */
+.an{
+    height: 500px;
+}
 .dine-text{
     padding-left: 80px;
     padding-top: 50px;
 }
+
+.dine-vertical{
+    padding-top: 110px;
+    padding-left: 40px;
+}
+
+.carousel-control-prev-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%343A40' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%343A40' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+.dine-explore{
+    color:rgb(20, 197, 197);
+    text-decoration: none;
+    padding-right: 30px;
+}
+.dine-menu{
+    color:#d8741b;
+    text-decoration: none;
+}
+.dine-button a{
+    float: left;
+    
+}
+ /* footer */
+ #footer{
+    padding: 4% 7%;
+    background-color: #3b5998;
+    
+ }
+.khatam li{
+    list-style: none;
+    line-height:2.7rem;
+}
+.khatam li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.endsocial{
+    display: flex;
+    padding-left: 0;
+
+    
+}
+.endsocial li a{
+    padding-right: 11px;
+}
+.endsocial li a:hover{
+    color:#d4af37 ;
+}
+
 
 /* New CSS */
 
@@ -185,6 +246,7 @@ hr{
 .black-header li a{
     padding: 3px 12px 3px 3px;
     text-decoration: none;
+    color: #ffffff;
 }
 .header {
     position: fixed;
@@ -265,7 +327,6 @@ hr{
     margin-left: 0;
     margin-right: 0;
     margin:4px;
-    
 }
 
 .offcanvas-body{
@@ -283,7 +344,6 @@ hr{
 .fb:hover{
     color:#3b5998;
     transform: translateY(-6px);
-    
 }
 
 .in:hover{
