@@ -309,6 +309,9 @@ hr{
 }
 
 
+.social-icon li a{
+    color: black;
+}
 .social-icon li a:hover{
     color: #d8741b;
 }
