@@ -10,15 +10,15 @@ hr{
 .navbar{
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom:0px;
-    padding-top: 0px;
+    padding-bottom:2px;
+    padding-top: 2px;
     
 }
 
 .fixed-top{
     position:relative;
 }
-.navbar-brand{
+.logo-img{
    margin: auto;
    text-align: center;
 }
@@ -265,6 +265,8 @@ hr{
     border-radius: 100%;
     text-align: center;
 }
+/* media-query */
+
 
 @media (max-width: 1142px){
     .logo-img{
@@ -279,11 +281,45 @@ hr{
     .navbar_left{
         display:none;
     }
-    .navbar {
-        text-align: center;
-        
-    }
     
+    .black-header{
+        display: none;
+    }
+    .navbar{
+        padding: 0px;
+    }
+   .col-opening{
+    
+   }
+
+   .info{
+    
+   }
+}
+
+@media (min-width:1142.1px) and (max-width:1433px){
+    .black-header{
+        display: none;
+    }
+    .navbar_right{
+        display:none;
+    }
+    .navbar{
+        padding: 2px 0px 2px 0px;
+    }
+
+    .logo-img{
+        text-align: center;
+    }
+    .navbar_left{
+        text-align: left;
+    }
+   .logo-img{
+    position: relative;
+    text-align: center;
+   margin-left: 100px;
+    
+   }
 }
 
 /* OFFCANVAS */
